@@ -4,7 +4,8 @@
   "description": "Playing with React in Express",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/main.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/athmangude/react-express-exemplar/issues"
   },
-  "homepage": "https://github.com/athmangude/react-express-exemplar#readme"
+  "homepage": "https://github.com/athmangude/react-express-exemplar#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
 }
