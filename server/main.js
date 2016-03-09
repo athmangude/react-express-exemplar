@@ -5,7 +5,7 @@ var app = new express();
 var port = 3000;
 
 app
-    .use(express.static(__dirname + '/../app'))
+    .use(express.static(__dirname + '/../.tmp'))
     .get('/', function (request, response) {
         response.render('./../app/index.ejs');
     })
