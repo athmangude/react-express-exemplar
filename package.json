@@ -1,0 +1,25 @@
+{
+  "name": "react-express-exemplar",
+  "version": "0.0.1",
+  "description": "Playing with React in Express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athmangude/react-express-exemplar.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "Isomorphic",
+    "Mongoose"
+  ],
+  "author": "Athman Gude <athmangude@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athmangude/react-express-exemplar/issues"
+  },
+  "homepage": "https://github.com/athmangude/react-express-exemplar#readme"
+}

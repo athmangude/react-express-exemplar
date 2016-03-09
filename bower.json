@@ -1,0 +1,24 @@
+{
+  "name": "react-express-exemplar",
+  "description": "Playing with React in Express",
+  "main": "main.js",
+  "authors": [
+    "Athman Gude <athmangude@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "React",
+    "Express",
+    "Isomorphic",
+    "Mongoose"
+  ],
+  "homepage": "https://github.com/athmangude/react-express-exemplar",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
