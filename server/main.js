@@ -4,10 +4,12 @@ var app = new express();
 
 var port = 3000;
 
-app.get('/', function (request, response) {
-    response.render('./../app/index.ejs');
-});
+app
+    .use(express.static(__dirname + '/../app'))
+    .get('/', function (request, response) {
+        response.render('./../app/index.ejs');
+    })
 
-app.listen(port, function () {
-    console.log('listening on port', port);
-});
+    .listen(port, function () {
+        console.log('listening on port', port);
+    });
