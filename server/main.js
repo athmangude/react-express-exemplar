@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = new express();
 
-var port = 3001;
+var port = 3000;
 
 app.get('/', function (request, response) {
     response.render('./../app/index.ejs');
